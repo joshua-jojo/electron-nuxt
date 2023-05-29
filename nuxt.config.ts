@@ -1,5 +1,14 @@
 export default defineNuxtConfig({
-  modules: ['nuxt-electron'],
+  modules: [
+    'nuxt-electron',
+  ],
+  css: ['~/assets/css/main.css'],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
   electron: {
     build: [
       {
