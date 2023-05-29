@@ -21,7 +21,7 @@
     "@types/node": "^18",
     "autoprefixer": "^10.4.14",
     "electron": "^25.0.0",
-    "electron-builder": "^23.6.0",
+    "electron-builder": "^24.4.0",
     "nuxt": "^3.5.2",
     "nuxt-electron": "^0.5.0",
     "postcss": "^8.4.24",
