@@ -1,6 +1,7 @@
 export default defineNuxtConfig({
   modules: [
     'nuxt-electron',
+    '@pinia/nuxt',
   ],
   css: ['~/assets/css/main.css'],
   postcss: {
